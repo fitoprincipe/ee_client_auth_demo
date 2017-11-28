@@ -1,6 +1,13 @@
 # ee_client_auth_demo
 Google Earth Engine App (App Engine) using the Python API and OAuth 2.0 Client ID authentication
 
+### Requirements
+
+- make sure you have locally installed:
+  - earthengine-api==0.1.83
+  - httplib2==0.9.1
+  - oauth2client==1.3.2
+
 ### Usage
 
 This is tested using a Debian Linux SO (Ubuntu, Mint, etc)
