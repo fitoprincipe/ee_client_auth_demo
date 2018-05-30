@@ -34,8 +34,8 @@ class Redirected(webapp2.RequestHandler):
     def get(self):
 
         # Simple example code
-        i = ee.Image.constant(0).getInfo()
-        return self.response.out.write(i)
+        user = ee.data.getAssetRoots()[0]
+        return self.response.out.write(user)
 
 app = webapp2.WSGIApplication([
     webapp2.Route('/', AuthHandler),
